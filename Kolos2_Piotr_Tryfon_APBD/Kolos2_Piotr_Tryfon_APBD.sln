@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kolos2_Piotr_Tryfon_APBD", "Kolos2_Piotr_Tryfon_APBD\Kolos2_Piotr_Tryfon_APBD.csproj", "{04F4126B-1C31-4158-8421-8B884C1CCE98}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{04F4126B-1C31-4158-8421-8B884C1CCE98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04F4126B-1C31-4158-8421-8B884C1CCE98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04F4126B-1C31-4158-8421-8B884C1CCE98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04F4126B-1C31-4158-8421-8B884C1CCE98}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3E11C9F7-5941-4C12-B720-A79260A5F83C}
+	EndGlobalSection
+EndGlobal
