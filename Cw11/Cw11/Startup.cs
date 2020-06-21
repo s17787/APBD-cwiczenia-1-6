@@ -2,8 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Cw10.DAL;
-using Cw10.Models;
+using Cw11.Models;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -14,7 +13,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 
-namespace Cw10
+namespace Cw11
 {
     public class Startup
     {
@@ -28,7 +27,7 @@ namespace Cw10
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContext<StudentDBCon>(opt =>
+            services.AddDbContext<HospitalDBContext>(opt =>
             {
                 opt.UseSqlServer("Data Source=db-mssql;Initial Catalog=s17787;Integrated Security=True");
             });
